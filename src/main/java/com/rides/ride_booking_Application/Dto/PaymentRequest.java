@@ -6,5 +6,5 @@ import lombok.Data;
 @Data
 public class PaymentRequest {
     private Long rideId;
-    pripwpvate PaymentMethod paymentMethod;
+    private PaymentMethod paymentMethod;
 }
